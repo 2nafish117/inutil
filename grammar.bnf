@@ -1,0 +1,190 @@
+// Dundi grammar and lex defns
+
+// LEXER
+
+// regular defns
+_uppercase: 'A'-'Z' ;
+_lowercase: 'a'-'z' ;
+_letter: _uppercase | _lowercase | '_' ;
+_digit: '0'-'9' ;
+_lineComment: '/' '/' {.} '\n' ;
+_blockComment: '/' '*' {. | '*'} '*' '/' ;
+_posFloatLit: ('0' | '1'-'9' {_digit}) ('.' _digit {_digit});
+
+_var: 'v' 'a' 'r';
+_func: 'f' 'u' 'n' 'c' ;
+_struct: 's' 't' 'r' 'u' 'c' 't' ;
+_type: 't' 'y' 'p' 'e' ;
+_return: 'r' 'e' 't' 'u' 'r' 'n' ;
+_if: 'i' 'f' ;
+_else: 'e' 'l' 's' 'e' ;
+_for: 'f' 'o' 'r' ;
+
+// ignore whitespaces and comments
+!whitespace: '\t' | '\n' | '\r' | ' ' ;
+!comment : _lineComment | _blockComment ;
+
+// keywords
+var: _var ;
+func: _func ;
+struct: _struct ;
+type: _type ;
+return: _return ;
+if: _if ;
+else: _else ;
+for: _for ;
+
+keyword: _var | _func | _struct | _type | _return | _if | _else | _for ;
+
+identifier: _letter {_letter | _digit} ;
+
+// literals
+integerLit: 
+        ['+' | '-'] '1'-'9' {_digit}
+    |   '0'
+    ;
+
+floatLit: 
+        _posFloatLit
+    |   '-' _posFloatLit
+    ;
+
+<<
+    import(
+        _ "inutil/token"
+        _ "inutil/util"
+        _ "inutil/table"
+    )
+>>
+
+// PARSER
+
+Program 
+    :   Functions
+    ;
+
+Functions
+    :   Functions Function
+    |   "empty"
+    ;
+
+Function
+    :   func identifier "(" Args ")" StatementBlock
+    ;
+
+StatementBlock
+    :   "{" Statements "}"
+    ;
+
+Args 
+    :   Args "," identifier
+    |   identifier
+    |   "empty"
+    ;
+
+Statements 
+    :   Statements Statement
+    |   StatementBlock
+    |   "empty"
+    ;
+
+ Statement
+    :   ControlStatements
+    |   AssignStatement ";"
+    |   FunctionCall ";"
+    ;
+
+AssignStatement
+    :   Lhs "=" Rhs
+    ;
+
+Lhs
+    :   identifier
+    ;
+
+Rhs
+    :   Expression
+    ;
+
+ControlStatements
+    :   IfStatement ElseStatement
+    |   ForStatement
+    ;
+
+IfStatement
+    :   if Expression StatementBlock
+    ;
+
+ElseStatement
+    :   else StatementBlock
+    |   "empty"
+    ;
+
+// @TODO: fix for exprs ? kinda fixed !!
+ForStatement
+    :   for ForExpression ";" ForExpression ";" ForExpression StatementBlock
+    ;
+
+ForExpression
+    :   Rhs
+    |   AssignStatement
+    |   "empty"
+    ;
+
+FunctionCall
+    :   identifier "(" Params ")"
+    ;
+
+Params
+    :   Params "," Param
+    |   Param
+    |   "empty"
+    ;
+
+Param
+    :   Rhs
+    ;
+
+BoolOp
+    :   "&&"
+    |   "||"
+    ;
+    
+RelOp
+    :   "<="
+    |   ">="
+    |   "!="
+    |   "=="
+    |   "<"
+    |   ">"
+    ;
+
+ArithOp1
+    :   "/"
+    |   "*"
+    ;
+
+ArithOp2
+    :   "+"
+    |   "-"
+    ;
+
+Expression
+    :   Expression ArithOp2 Term
+    |   Expression RelOp Term
+    |   Expression BoolOp Term
+    |   Term
+    ;
+
+Term
+    :   Term ArithOp1 Factor
+    |   Factor
+    ;
+
+Factor
+    :   "(" Expression ")"
+    |   identifier
+    |   integerLit
+    |   floatLit
+    |   FunctionCall
+    ;
