@@ -2,11 +2,11 @@
 
 package parser
 
-import (
-	_ "inutil/table"
-	_ "inutil/token"
-	_ "inutil/util"
-)
+import(
+        _ "inutil/token"
+        _ "inutil/util"
+        _ "inutil/table"
+    )
 
 type (
 	//TODO: change type and variable names to be consistent with other tables

@@ -1,47 +1,61 @@
 package tests
 
 import (
-	"dundi/lexer"
-	"dundi/token"
+	"inutil/lexer"
 	"testing"
 )
 
-var keyword_cases = []Case{
-	{`_hey`, "no"},
-	{`hmmm`, "no"},
-	{`is_yes`, "no"},
-	{`isOk`, "no"},
-	{`fortyNine547_`, "no"},
-	{`3156`, "no"},
-	{`47bananas_`, "no"},
+var keywordCases = []TrueFalseCase{
+	{`_hey`, false},
+	{`hmmm`, false},
+	{`is_yes`, false},
+	{`isOk`, false},
+	{`fortyNine547_`, false},
+	{`3156`, false},
+	{`47bananas_`, false},
 
-	{`var`, "yes"},
-	{`func`, "yes"},
-	{`struct`, "yes"},
-	{`type`, "yes"},
-	{`return`, "yes"},
-	{`if`, "yes"},
-	{`else`, "yes"},
-	{`for`, "yes"},
+	{`var`, true},
+	{`func`, true},
+	{`struct`, true},
+	{`type`, true},
+	{`return`, true},
+	{`if`, true},
+	{`else`, true},
+	{`for`, true},
+}
+
+var keywords = []string{
+	"var",
+	"func",
+	"struct",
+	"type",
+	"return",
+	"if",
+	"else",
+	"for",
+}
+
+func contains(arr []string, str string) bool {
+	for _, a := range arr {
+		if a == str {
+			return true
+		}
+	}
+	return false
 }
 
 func TestKeyword(t *testing.T) {
 
-	for i, c := range keyword_cases {
+	for i, c := range keywordCases {
 		l := lexer.NewLexer([]byte(c.test))
 
-		var got string
-		if l.Scan().Type == token.TokMap.Type("keyword") {
-			got = "yes"
-		} else {
-			got = "no"
-		}
+		tok := l.Scan()
+		got := contains(keywords, tok.IDValue())
 
 		if got == c.expected {
-			t.Logf("TEST %d:\t(%s):\t\t\tPASSED", i, c.test)
+			t.Logf("TEST PASSED %d: (%s)", i, c.test)
 		} else {
-			t.Errorf("TEST %d:\t(%s):\t\t\tFAILED: expected %s, got %s", i, c.test, c.expected, got)
+			t.Errorf("TEST FAILED %d: (%s): expected %v, got %v", i, c.test, c.expected, got)
 		}
 	}
-
 }

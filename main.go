@@ -10,6 +10,7 @@ func main() {
 
 	test := `
 
+	// this is comment
 	func lol(hehe, hehem, hhh) {
 		a = 2;
 		b = a + 2.5 + v;

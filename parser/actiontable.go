@@ -43,7 +43,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -82,7 +81,6 @@ var actionTab = actionTable{
 			nil,          // -
 			nil,          // integerLit
 			nil,          // floatLit
-			nil,          // keyword
 			nil,          // return
 			nil,          // struct
 			nil,          // type
@@ -121,7 +119,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -160,7 +157,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -199,7 +195,6 @@ var actionTab = actionTable{
 			nil,      // -
 			nil,      // integerLit
 			nil,      // floatLit
-			nil,      // keyword
 			nil,      // return
 			nil,      // struct
 			nil,      // type
@@ -238,7 +233,6 @@ var actionTab = actionTable{
 			nil,      // -
 			nil,      // integerLit
 			nil,      // floatLit
-			nil,      // keyword
 			nil,      // return
 			nil,      // struct
 			nil,      // type
@@ -277,7 +271,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -316,7 +309,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -355,7 +347,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -394,7 +385,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -433,7 +423,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -472,7 +461,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -511,7 +499,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -550,7 +537,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -589,7 +575,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -628,7 +613,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -667,7 +651,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -706,7 +689,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -745,7 +727,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -784,7 +765,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -823,7 +803,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -862,7 +841,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -901,7 +879,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -940,7 +917,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -979,7 +955,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1018,7 +993,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1057,7 +1031,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1096,7 +1069,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1135,7 +1107,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(53),  // integerLit
 			shift(54),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1174,7 +1145,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1213,7 +1183,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(64),  // integerLit
 			shift(65),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1252,7 +1221,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1291,7 +1259,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1330,7 +1297,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(53), // integerLit
 			shift(54), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1369,7 +1335,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1408,7 +1373,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1447,7 +1411,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1486,7 +1449,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1525,7 +1487,6 @@ var actionTab = actionTable{
 			reduce(54), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1564,7 +1525,6 @@ var actionTab = actionTable{
 			shift(92), // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1603,7 +1563,6 @@ var actionTab = actionTable{
 			reduce(47), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1642,7 +1601,6 @@ var actionTab = actionTable{
 			reduce(49), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1681,7 +1639,6 @@ var actionTab = actionTable{
 			reduce(52), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1720,7 +1677,6 @@ var actionTab = actionTable{
 			reduce(53), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1759,7 +1715,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1798,7 +1753,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -1837,7 +1791,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1876,7 +1829,6 @@ var actionTab = actionTable{
 			reduce(54), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1915,7 +1867,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1954,7 +1905,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -1993,7 +1943,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2032,7 +1981,6 @@ var actionTab = actionTable{
 			reduce(47), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2071,7 +2019,6 @@ var actionTab = actionTable{
 			reduce(49), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2110,7 +2057,6 @@ var actionTab = actionTable{
 			reduce(52), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2149,7 +2095,6 @@ var actionTab = actionTable{
 			reduce(53), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2188,7 +2133,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2227,7 +2171,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -2266,7 +2209,6 @@ var actionTab = actionTable{
 			reduce(54), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2305,7 +2247,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2344,7 +2285,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2383,7 +2323,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2422,7 +2361,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2461,7 +2399,6 @@ var actionTab = actionTable{
 			reduce(47), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2500,7 +2437,6 @@ var actionTab = actionTable{
 			reduce(49), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2539,7 +2475,6 @@ var actionTab = actionTable{
 			reduce(52), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2578,7 +2513,6 @@ var actionTab = actionTable{
 			reduce(53), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2617,7 +2551,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2656,7 +2589,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2695,7 +2627,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2734,7 +2665,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(64),  // integerLit
 			shift(65),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2773,7 +2703,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2812,7 +2741,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -2851,7 +2779,6 @@ var actionTab = actionTable{
 			reduce(54), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2890,7 +2817,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2929,7 +2855,6 @@ var actionTab = actionTable{
 			reduce(47), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -2968,7 +2893,6 @@ var actionTab = actionTable{
 			reduce(49), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3007,7 +2931,6 @@ var actionTab = actionTable{
 			reduce(52), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3046,7 +2969,6 @@ var actionTab = actionTable{
 			reduce(53), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3085,7 +3007,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3124,7 +3045,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3163,7 +3083,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3202,7 +3121,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(32), // integerLit, reduce: BoolOp
 			reduce(32), // floatLit, reduce: BoolOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3241,7 +3159,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(33), // integerLit, reduce: BoolOp
 			reduce(33), // floatLit, reduce: BoolOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3280,7 +3197,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3319,7 +3235,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(34), // integerLit, reduce: RelOp
 			reduce(34), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3358,7 +3273,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(35), // integerLit, reduce: RelOp
 			reduce(35), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3397,7 +3311,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(36), // integerLit, reduce: RelOp
 			reduce(36), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3436,7 +3349,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(37), // integerLit, reduce: RelOp
 			reduce(37), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3475,7 +3387,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(38), // integerLit, reduce: RelOp
 			reduce(38), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3514,7 +3425,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(39), // integerLit, reduce: RelOp
 			reduce(39), // floatLit, reduce: RelOp
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3553,7 +3463,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3592,7 +3501,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(42), // integerLit, reduce: ArithOp2
 			reduce(42), // floatLit, reduce: ArithOp2
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3631,7 +3539,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(43), // integerLit, reduce: ArithOp2
 			reduce(43), // floatLit, reduce: ArithOp2
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3670,7 +3577,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3709,7 +3615,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(40), // integerLit, reduce: ArithOp1
 			reduce(40), // floatLit, reduce: ArithOp1
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3748,7 +3653,6 @@ var actionTab = actionTable{
 			nil,        // -
 			reduce(41), // integerLit, reduce: ArithOp1
 			reduce(41), // floatLit, reduce: ArithOp1
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3787,7 +3691,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(64),  // integerLit
 			shift(65),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3826,7 +3729,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -3865,7 +3767,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(53), // integerLit
 			shift(54), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3904,7 +3805,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(53), // integerLit
 			shift(54), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3943,7 +3843,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(53), // integerLit
 			shift(54), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -3982,7 +3881,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(53),  // integerLit
 			shift(54),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4021,7 +3919,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(53), // integerLit
 			shift(54), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4060,7 +3957,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(64),  // integerLit
 			shift(65),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4099,7 +3995,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4138,7 +4033,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(64), // integerLit
 			shift(65), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4177,7 +4071,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(64), // integerLit
 			shift(65), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4216,7 +4109,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(64), // integerLit
 			shift(65), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4255,7 +4147,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4294,7 +4185,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(64), // integerLit
 			shift(65), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4333,7 +4223,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(64), // integerLit
 			shift(65), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4372,7 +4261,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4411,7 +4299,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(64),  // integerLit
 			shift(65),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4450,7 +4337,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4489,7 +4375,6 @@ var actionTab = actionTable{
 			reduce(50), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4528,7 +4413,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4567,7 +4451,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4606,7 +4489,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4645,7 +4527,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(76), // integerLit
 			shift(77), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -4684,7 +4565,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4723,7 +4603,6 @@ var actionTab = actionTable{
 			reduce(46), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4762,7 +4641,6 @@ var actionTab = actionTable{
 			reduce(45), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4801,7 +4679,6 @@ var actionTab = actionTable{
 			reduce(44), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4840,7 +4717,6 @@ var actionTab = actionTable{
 			reduce(48), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4879,7 +4755,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4918,7 +4793,6 @@ var actionTab = actionTable{
 			reduce(50), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4957,7 +4831,6 @@ var actionTab = actionTable{
 			reduce(46), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -4996,7 +4869,6 @@ var actionTab = actionTable{
 			reduce(45), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5035,7 +4907,6 @@ var actionTab = actionTable{
 			reduce(44), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5074,7 +4945,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5113,7 +4983,6 @@ var actionTab = actionTable{
 			reduce(48), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5152,7 +5021,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5191,7 +5059,6 @@ var actionTab = actionTable{
 			reduce(50), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5230,7 +5097,6 @@ var actionTab = actionTable{
 			reduce(46), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5269,7 +5135,6 @@ var actionTab = actionTable{
 			reduce(45), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5308,7 +5173,6 @@ var actionTab = actionTable{
 			reduce(44), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5347,7 +5211,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5386,7 +5249,6 @@ var actionTab = actionTable{
 			reduce(48), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5425,7 +5287,6 @@ var actionTab = actionTable{
 			reduce(27), // -, reduce: FunctionCall
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5464,7 +5325,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5503,7 +5363,6 @@ var actionTab = actionTable{
 			reduce(50), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5542,7 +5401,6 @@ var actionTab = actionTable{
 			reduce(46), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5581,7 +5439,6 @@ var actionTab = actionTable{
 			reduce(45), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5620,7 +5477,6 @@ var actionTab = actionTable{
 			reduce(44), // -, reduce: Expression
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5659,7 +5515,6 @@ var actionTab = actionTable{
 			reduce(48), // -, reduce: Term
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5698,7 +5553,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -5737,7 +5591,6 @@ var actionTab = actionTable{
 			reduce(27), // -, reduce: FunctionCall
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5776,7 +5629,6 @@ var actionTab = actionTable{
 			nil,        // -
 			shift(42),  // integerLit
 			shift(43),  // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5815,7 +5667,6 @@ var actionTab = actionTable{
 			reduce(27), // -, reduce: FunctionCall
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5854,7 +5705,6 @@ var actionTab = actionTable{
 			reduce(27), // -, reduce: FunctionCall
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5893,7 +5743,6 @@ var actionTab = actionTable{
 			reduce(51), // -, reduce: Factor
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5932,7 +5781,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -5971,7 +5819,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -6010,7 +5857,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -6049,7 +5895,6 @@ var actionTab = actionTable{
 			shift(92),  // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -6088,7 +5933,6 @@ var actionTab = actionTable{
 			nil,       // -
 			nil,       // integerLit
 			nil,       // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -6127,7 +5971,6 @@ var actionTab = actionTable{
 			nil,       // -
 			shift(42), // integerLit
 			shift(43), // floatLit
-			nil,       // keyword
 			nil,       // return
 			nil,       // struct
 			nil,       // type
@@ -6166,7 +6009,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type
@@ -6205,7 +6047,6 @@ var actionTab = actionTable{
 			nil,        // -
 			nil,        // integerLit
 			nil,        // floatLit
-			nil,        // keyword
 			nil,        // return
 			nil,        // struct
 			nil,        // type

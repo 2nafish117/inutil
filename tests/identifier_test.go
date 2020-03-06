@@ -1,49 +1,43 @@
 package tests
 
 import (
-	"dundi/lexer"
-	"dundi/token"
+	"inutil/lexer"
+	"inutil/token"
 	"testing"
 )
 
-type Case struct {
+type TrueFalseCase struct {
 	test     string
-	expected string
+	expected bool
 }
 
-var identifier_cases = []Case{
-	{`_hey`, "yes"},
-	{`hmmm`, "yes"},
-	{`is_yes`, "yes"},
-	{`isOk`, "yes"},
-	{`fortyNine547_`, "yes"},
+var identifierCases = []TrueFalseCase{
+	{`_hey`, true},
+	{`hmmm`, true},
+	{`is_yes`, true},
+	{`isOk`, true},
+	{`fortyNine547_`, true},
 
-	{`3156`, "no"},
-	{`47bananas_`, "no"},
-	{`var`, "no"},
-	{`func`, "no"},
-	{`struct`, "no"},
-	{`if`, "no"},
-	{`for`, "no"},
+	{`3156`, false},
+	{`47bananas_`, false},
+	{`var`, false},
+	{`func`, false},
+	{`struct`, false},
+	{`if`, false},
+	{`for`, false},
 }
 
 func TestIdentifier(t *testing.T) {
 
-	for i, c := range identifier_cases {
+	for i, c := range identifierCases {
 		l := lexer.NewLexer([]byte(c.test))
 
-		var got string
-		if l.Scan().Type == token.TokMap.Type("identifier") {
-			got = "yes"
-		} else {
-			got = "no"
-		}
+		got := (l.Scan().Type == token.TokMap.Type("identifier"))
 
 		if got == c.expected {
-			t.Logf("TEST %d:\t(%s):\t\t\tPASSED", i, c.test)
+			t.Logf("TEST PASSED %d: (%s)", i, c.test)
 		} else {
-			t.Errorf("TEST %d:\t(%s):\t\t\tFAILED: expected %s, got %s", i, c.test, c.expected, got)
+			t.Errorf("TEST FAILED %d: (%s): expected %v, got %v", i, c.test, c.expected, got)
 		}
 	}
-
 }

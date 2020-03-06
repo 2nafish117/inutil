@@ -1,4 +1,4 @@
-// Dundi grammar and lex defns
+// inutil grammar and lex defns
 
 // LEXER
 
@@ -9,44 +9,32 @@ _letter: _uppercase | _lowercase | '_' ;
 _digit: '0'-'9' ;
 _lineComment: '/' '/' {.} '\n' ;
 _blockComment: '/' '*' {. | '*'} '*' '/' ;
-_posFloatLit: ('0' | '1'-'9' {_digit}) ('.' _digit {_digit});
-
-_var: 'v' 'a' 'r';
-_func: 'f' 'u' 'n' 'c' ;
-_struct: 's' 't' 'r' 'u' 'c' 't' ;
-_type: 't' 'y' 'p' 'e' ;
-_return: 'r' 'e' 't' 'u' 'r' 'n' ;
-_if: 'i' 'f' ;
-_else: 'e' 'l' 's' 'e' ;
-_for: 'f' 'o' 'r' ;
+_posFloatLit: [('0' | '1'-'9' {_digit})] ('.' _digit {_digit});
 
 // ignore whitespaces and comments
 !whitespace: '\t' | '\n' | '\r' | ' ' ;
 !comment : _lineComment | _blockComment ;
 
 // keywords
-var: _var ;
-func: _func ;
-struct: _struct ;
-type: _type ;
-return: _return ;
-if: _if ;
-else: _else ;
-for: _for ;
-
-keyword: _var | _func | _struct | _type | _return | _if | _else | _for ;
+var: 'v' 'a' 'r';
+func: 'f' 'u' 'n' 'c' ;
+struct: 's' 't' 'r' 'u' 'c' 't' ;
+type: 't' 'y' 'p' 'e' ;
+return: 'r' 'e' 't' 'u' 'r' 'n' ;
+if: 'i' 'f' ;
+else: 'e' 'l' 's' 'e' ;
+for: 'f' 'o' 'r' ;
 
 identifier: _letter {_letter | _digit} ;
 
 // literals
 integerLit: 
         ['+' | '-'] '1'-'9' {_digit}
-    |   '0'
+    |   ['+' | '-'] '0'
     ;
 
 floatLit: 
-        _posFloatLit
-    |   '-' _posFloatLit
+        ['+' | '-'] _posFloatLit
     ;
 
 <<
