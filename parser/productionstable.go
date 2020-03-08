@@ -5,7 +5,8 @@ package parser
 import(
         _ "inutil/token"
         _ "inutil/util"
-        _ "inutil/table"
+        _ "inutil/runtime/table"
+        _ "inutil/runtime/buffer"
     )
 
 type (
@@ -535,17 +536,17 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
-		String: `Factor : identifier	<<  >>`,
+		String: `Factor : "-" Factor	<<  >>`,
 		Id:         "Factor",
 		NTType:     25,
 		Index:      51,
-		NumSymbols: 1,
+		NumSymbols: 2,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
 		},
 	},
 	ProdTabEntry{
-		String: `Factor : integerLit	<<  >>`,
+		String: `Factor : identifier	<<  >>`,
 		Id:         "Factor",
 		NTType:     25,
 		Index:      52,
@@ -555,7 +556,7 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
-		String: `Factor : floatLit	<<  >>`,
+		String: `Factor : integerLit	<<  >>`,
 		Id:         "Factor",
 		NTType:     25,
 		Index:      53,
@@ -565,10 +566,20 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
-		String: `Factor : FunctionCall	<<  >>`,
+		String: `Factor : floatLit	<<  >>`,
 		Id:         "Factor",
 		NTType:     25,
 		Index:      54,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Factor : FunctionCall	<<  >>`,
+		Id:         "Factor",
+		NTType:     25,
+		Index:      55,
 		NumSymbols: 1,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil

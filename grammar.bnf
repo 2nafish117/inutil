@@ -41,7 +41,8 @@ floatLit:
     import(
         _ "inutil/token"
         _ "inutil/util"
-        _ "inutil/table"
+        _ "inutil/runtime/table"
+        _ "inutil/runtime/buffer"
     )
 >>
 
@@ -171,6 +172,7 @@ Term
 
 Factor
     :   "(" Expression ")"
+    |   "-" Factor
     |   identifier
     |   integerLit
     |   floatLit

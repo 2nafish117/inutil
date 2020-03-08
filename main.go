@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"inutil/lexer"
 	"inutil/parser"
+	"inutil/runtime"
 )
 
 func main() {
@@ -14,6 +15,7 @@ func main() {
 	func lol(hehe, hehem, hhh) {
 		a = 2;
 		b = a + 2.5 + v;
+		bb = 67;
 	}
 
 	func id() {}
@@ -23,6 +25,10 @@ func main() {
 			d = 6.7 == 56;
 			hey = (g <= there() || 6.78) && 6.7;
 		}
+
+		f = -g;
+		hel = -(s + g + 4 - 5 / 678);
+		a = -4 * -5;
 	}
 
 	func main() 
@@ -52,6 +58,16 @@ func main() {
 		{
 			// stuffhere(bim, 67.4, 2.8, 9);
 			// g = 78;
+			if d > 0 {
+				more_stuff();
+			}
+
+			for ;; {
+				beep();
+				for ;; {
+
+				}
+			}
 		}
 	}
 	`
@@ -60,4 +76,10 @@ func main() {
 	p := parser.NewParser()
 	ret, err := p.Parse(l)
 	fmt.Println(ret, err)
+
+	runtime.E.Dump()
+
+	runtime.Execute(&runtime.E)
+
+	runtime.E.Dump()
 }
