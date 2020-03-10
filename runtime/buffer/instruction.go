@@ -11,21 +11,30 @@ import (
 const (
 	Nop int8 = iota
 
-	PushName
-	PopName
+	PushName // pushes value of a name onto stack
+	PopName  // pops value of a name from stack into symtable
 
-	PushConst
-	PopConst
+	PushConst // pushes a constant onto stack
+	PopConst  // pops a constant from stack (kinda useless i think)
 
-	ArithAdd
-	ArithSub
-	ArithMul
-	ArithDiv
+	ArithAdd // adds the top 2 values on the stack, and places result on stack (consumes the inputs)
+	ArithSub // subs the top 2 values on the stack, and places result on stack (consumes the inputs)
+	ArithMul // muls the top 2 values on the stack, and places result on stack (consumes the inputs)
+	ArithDiv // divs the top 2 values on the stack, and places result on stack (consumes the inputs)
 
-	BoolOr
-	BoolAnd
+	BoolOr  // boolean or of 2 values on stack, places result on stack (consumes input)
+	BoolAnd // boolean and of 2 values on stack, places result on stack (consumes input)
+	BoolNot // boolean not of the value on stack, places result on stack (consumes input)
 
-	CallFunc
+	Goto    // unconditional jump
+	GotoGZ  // jump to instr given by Arg if stack top is greater than zero
+	GotoLZ  // jump to instr given by Arg if stack top is lesser than zero
+	GotoGEZ // jump to instr given by Arg if stack top is greater or equal to zero
+	GotoLEZ // jump to instr given by Arg if stack top is lesser or equal to zero
+	GotoEZ  // jump to instr given by Arg if stack top is equal to zero
+	GotoNEZ // jump to instr given by Arg if stack top is not equal to zero
+
+	CallFunc // TODO docs
 )
 
 // OpStrings converts enum to string
@@ -52,6 +61,8 @@ type Instruction struct {
 	Op   int8
 	Args interface{}
 }
+
+// @TODO: maybe have a function that returns the max of 2 types, for type conversions
 
 // Refactor all these functions ??? any way to make it so each new type doesnt explode
 // maybe restrict the automatic type conversions type, so only int64 + int64 works, and so on
