@@ -52,11 +52,13 @@
 
 // @TODO: implment this
 5. func-call:
-    e = f(a, b, c, d)
+    e = fun(a, b, c, d)
     
     a.code
     b.code
     c.code
     d.code
-
+    PushName "fun"
     CallFunc 4
+
+

@@ -40,7 +40,7 @@ floatLit:
 <<
     import(
         _ "inutil/token"
-        _ "inutil/util"
+        "inutil/util"
         _ "inutil/runtime/table"
         _ "inutil/runtime/buffer"
     )
@@ -171,10 +171,10 @@ Term
     ;
 
 Factor
-    :   "(" Expression ")"
-    |   "-" Factor
+    :   "(" Expression ")"  << $1, nil >>
+    |   "-" Factor          << -$1 >>
     |   identifier
-    |   integerLit
-    |   floatLit
+    |   integerLit          << util.IntValue( $0.(*token.Token).Lit ) >>
+    |   floatLit            << util.FloatValue( $0.(*token.Token).Lit ) >>
     |   FunctionCall
     ;
