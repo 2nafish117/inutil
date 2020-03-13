@@ -25,7 +25,33 @@ var ifCases = []TrueFalseCase{
 			print(one);
 		}
 	}`, true},
+	{`if something {} else {}`, true},
+	{`if something {} else {
+		if another {
 
+		} else {
+			sayHello(1, 3, 45);
+		}
+	}`, true},
+	{`if something {} else {} 
+	if hi {more_stuff();}
+	`, true},
+	{`if case1 {
+
+	} else {
+		if case2 {
+
+		}
+	} else {
+		if case3 {
+
+		}
+	} else {
+		//default case
+	}`, true},
+
+	{`if something {} else `, false},
+	{`if something {} else {} else {}`, false},
 	{`if {}`, false},
 	{`if (c) {}`, false},
 	{`if () {}`, false},
@@ -38,7 +64,7 @@ var ifCases = []TrueFalseCase{
 }
 
 func TestIf(t *testing.T) {
-	for _, c := range funcCases {
+	for i, c := range funcCases {
 		l := lexer.NewLexer([]byte(c.test))
 		p := parser.NewParser()
 		ret, err := p.Parse(l)
@@ -47,7 +73,7 @@ func TestIf(t *testing.T) {
 		got := (err == nil)
 
 		if got != c.expected {
-			t.Errorf("TEST FAILED: (%s): expected %v, got %v", string(c.test), nil, err)
+			t.Errorf("TEST %d FAILED: (%s): expected %v, got %v", i, string(c.test), nil, err)
 		}
 	}
 }
